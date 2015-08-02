@@ -30,6 +30,10 @@
 
                     <h1>I am <span id="typed" style="white-space:pre;"></span></h1>
 
+                    <h2 >Website Currently Under Construction</h2>
+                    <p>I am a Master's Computer Engineering student at Northwestern University and currently spending the summer interning at Intel's Arizona site.</p> 
+                    <p>To learn more about me, check out my <a href="https://www.linkedin.com/pub/cristian-bedoya/49/515/243">LinkedIn</a> profile.</p>
+
                 </div>
 
             </div>
@@ -45,16 +49,22 @@
     <script src="js/typed.js"></script>
     
     <script>
-          //$("#infobox").delay(500).fadeIn(1000);
 
             //type
             $(function(){
                 $("#typed").typed({
                     strings: ["a <strong>hardware engineer</strong>", "a <strong>web developer</strong>","<strong>Cristian Bedoya</strong>"],
                     typeSpeed: 40,
-                    backDelay: 600,
+                    backDelay: 400,
+                    callback: function(){ infofade(); },
                 });
             });
+
+            //Made content fade in 
+            function infofade(){
+                $("div #infobox h2 ").delay(500).fadeIn(1000);
+                $("div #infobox p").delay(500).fadeIn(1000);
+            }
 
     </script>
 

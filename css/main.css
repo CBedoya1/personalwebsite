@@ -88,12 +88,20 @@
         }
 
 
-        h1{
+        div #infobox h1{
             font-size: 65px;
+
         }
 
-        h2{
+        div #infobox h2{
             font-size: 30px;
+            display: none;
+            
+        }
+
+        div #infobox p{
+            display: none;
+            
         }
 
     }

@@ -28,21 +28,13 @@
 
                 <div id="infobox">
 
-                    <h1 >Cristian Bedoya's Personal Website</h1>
-                    <h2 >Website Currently Under Construction</h2>
-                    <p>I am a Master's Computer Engineering student at Northwestern University and currently spending the summer interning at Intel's Arizona site.</p> 
-                    <p>To learn more about me, check out my <a href="https://www.linkedin.com/pub/cristian-bedoya/49/515/243">LinkedIn</a> profile.</p>
+                    <p>I am <span id="typed" style="white-space:pre;"></span></p>
 
                 </div>
 
             </div>
 
-        </div>
-
-        <div id="test">
-            <span id="typed" style="white-space:pre;"></span>
-        </div>
-        
+        </div>        
         
     </div>
 
@@ -53,12 +45,12 @@
     <script src="js/typed.js"></script>
     
     <script>
-          $("#infobox").delay(500).fadeIn(1000);
+          //$("#infobox").delay(500).fadeIn(1000);
 
             //type
             $(function(){
                 $("#typed").typed({
-                    strings: ["I am an <strong>engineer</strong>", "I am a <strong>musician</strong>","I am <strong>Cristian Bedoya</strong>"],
+                    strings: ["a <strong>hardware engineer</strong>", "a <strong>web developer</strong>","<strong>Cristian Bedoya</strong>"],
                     typeSpeed: 40,
                     backDelay: 600,
                 });

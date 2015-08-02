@@ -11,11 +11,10 @@
     <!--css-->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/typedjs.css">
 
 </head>
 
-
-<!--############################ BEGIN BODY #####################################-->
 
 
 <body>
@@ -39,6 +38,10 @@
             </div>
 
         </div>
+
+        <div id="test">
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
         
         
     </div>
@@ -47,18 +50,23 @@
     <!--Add some effects-->
     <!--Scripts placed at the end to make page load faster-->
     <script type="text/Javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/typed.js"></script>
+    
     <script>
           $("#infobox").delay(500).fadeIn(1000);
+
+            //type
+            $(function(){
+                $("#typed").typed({
+                    strings: ["I am an <strong>engineer</strong>", "I am a <strong>musician</strong>","I am <strong>Cristian Bedoya</strong>"],
+                    typeSpeed: 40,
+                    backDelay: 600,
+                });
+            });
+
     </script>
 
 
 </body>
-
-
-<!--############################ END BODY #####################################-->
-
-
-
-
 
 </html>

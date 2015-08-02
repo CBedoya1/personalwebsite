@@ -1,0 +1,111 @@
+    body{
+        margin:0;
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: normal;
+      }
+
+      p{
+        text-align: center;
+        vertical-align: middle;
+        margin:0 auto;
+        font-size: normal;
+      }
+
+      a{
+        color: white;
+        font-weight: normal;
+      }
+
+    #container{
+        background-color: white;
+        width:100%;
+        height: 100%;
+        position: absolute;
+
+    }
+
+    #box1{
+        height:100%;
+        width: 100%;
+        background: url(../images/background1compressed.jpg);
+        
+    }
+
+    #box2{
+        height:200px;
+        width: 100%;
+
+    }
+
+    #transbox{
+        margin: 0 auto;
+        background-color: black;
+        border: 1px solid black;
+        opacity:0.85;
+        width:100%;
+        height: 100%;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+        text-align: center;
+        font-variant: normal;
+        position: absolute;
+        color: white;
+
+    }
+
+    #infobox{ 
+        vertical-align: middle;
+        margin:0 auto;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 6em;
+        padding: 15px auto;
+        background-color: black;
+        display: none;
+    }
+
+    #test{
+
+        width:100%;
+        height: 200px;
+    }
+
+    /*For anything bigger than a phone*/
+    @media (min-width: 768px) {
+        #infobox{
+            margin: 9em auto;
+            padding: 50px;
+        }
+
+        #box1{
+            
+            background-size: 100% 100%;
+        }
+
+        #transbox{
+            opacity:0.83;
+        }
+
+
+        h1{
+            font-size: 50px;
+        }
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
+
+
+   
+

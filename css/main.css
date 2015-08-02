@@ -58,10 +58,15 @@
     }
 
     #infobox{ 
-        padding: 15px auto;
-        position: absolute;
-        color:white;
         z-index: 1;
+        vertical-align: middle;
+        margin:0 auto;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 6em;
+        padding: 15px auto;
+        background-color: black;
+        color: white;
 
     }
 
@@ -69,11 +74,8 @@
     /*For anything bigger than a phone*/
     @media (min-width: 768px) {
         #infobox{
-            margin:auto;
-            padding:0 auto;
-            font-size: 400%;
-            top:35%;  
-            left: 25%;         
+            margin: 9em auto;
+            padding: 50px;     
         }
 
         #box1{
@@ -87,7 +89,7 @@
 
 
         h1{
-            font-size: 50px;
+            font-size: 65px;
         }
 
         h2{

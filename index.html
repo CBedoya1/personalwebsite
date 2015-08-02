@@ -1,32 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  
-  <head>
+<head>
+	
+	<title>Visit Colombia</title>
 
-    <script type="text/Javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Cristian Bedoya</title>
+<!--############################ STYLE #####################################-->
 
-    <style>
+    <style type="text/css">
 
-      body{
-        margin:0;
-      }
-      
-      #background
-      {
+    body{
+    	margin:0;
+    }
+
+    #container{
+    	background-color: blue;
+    	width:100%;
+    	height: 100%;
+    	position: absolute;
+
+    }
+
+    .box{
+    	
+    	max-width:100%;
+    	position: static;
+    }
+
+    #box1{
+    	height:100%;
         background: url(images/background1.jpg);
-        background-size: 100% 100%;
-        width:100%;
+    }
+
+    div{
+    	line-height: 0;
+    }
+
+    img {
+        width: 100%;
         height: 100%;
-        position: absolute;
-        font-family: 'Avant Garde',  sans-serif;
-        color: white;
-      }
-      
-      #transbox
-      {
+
+    }
+
+    #transbox{
         margin: 0 auto;
         background-color: black;
         border: 1px solid black;
@@ -37,76 +56,56 @@
         font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
         text-align: center;
         font-variant: normal;
-
-        
-      }
-      
-      #infobox{
-        
-        margin: 9em auto;
-        padding: 50px;
-        background-color: black;
-        display: none;
-      }
+        position: absolute;
 
 
-      h1 {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-      }
-
-      h2 {
-        font-size: 30px;
-        font-weight: normal;
-      }
-
-      p{
-        text-align: center;
-        vertical-align: middle;
-        margin:0 auto;
-        font-size: normal%;
-      }
-
-      a{
-        color: white;
-        font-weight: normal;
-      }
+    }
 
 
+	</style>
 
-    </style>
-
-  </head>
-
-
-  <body>
-    <div id="background">
-      
-      <div id="transbox">
-
-          <div id="infobox">
-
-              <h1 >Cristian Bedoya's Personal Website</h1>
-              <h2 >Website Currently Under Construction</h2>
-              <p>I am a Master's Computer Engineering student at Northwestern University and currently spending the summer interning at Intel's Arizona site.</p> 
-              <p>To learn more about me, check out my <a href="https://www.linkedin.com/pub/cristian-bedoya/49/515/243">LinkedIn</a> profile.</p>
-            
-
-          </div>
-        
-      </div>
-
-    </div>
+</head>
 
 
+<!--############################ BEGIN BODY #####################################-->
 
-    <!--Add some effects-->
-    <script type="text/javascript">
-          $("#infobox").delay(500).fadeIn(1000);
 
-    </script>
+<body>
 
-  </body>
+	<!--Entrance-->
+	<div id="container">
+
+
+		<!--BOX1 appears full when when you open the page-->
+		<div id= "box1" class="box">
+
+                <div id = "transbox"></div>
+
+		</div>
+
+
+		
+
+		<div class="box">
+
+			<img src="http://userscontent2.emaze.com/images/3896edd8-ad38-4e4a-890b-c2ce5eddb354/465d9d3e-36f2-4099-9ac6-f60199c5e0cb.jpg">
+
+		</div>
+
+		<div class="box">
+
+			<img src="http://www.gringos.com/wp/wp-content/files/2011/01/colombiaFLAGname.jpg">
+
+		</div>
+		
+		
+		
+	</div>
+
+
+</body>
+
+
+<!--############################ END BODY #####################################-->
 
 </html>

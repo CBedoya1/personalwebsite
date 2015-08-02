@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <script type="text/Javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <title>Cristian Bedoya</title>
+
+    <style>
+
+      body{
+        margin:0;
+      }
+      
+      #background
+      {
+        background: url(images/background1.jpg);
+        background-size: 100% 100%;
+        width:100%;
+        height: 100%;
+        position: absolute;
+        font-family: 'Avant Garde',  sans-serif;
+        color: white;
+      }
+      
+      #transbox
+      {
+        margin: 0 auto;
+        background-color: black;
+        border: 1px solid black;
+        opacity:0.75;
+        width:100%;
+        height: 100%;
+        filter:alpha(opacity=60); /* For IE8 and earlier */
+        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+        text-align: center;
+        font-variant: normal;
+
+        
+      }
+      
+      #infobox{
+        
+        margin: 9em auto;
+        padding: 50px;
+        background-color: black;
+        display: none;
+      }
+
+
+      h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+      }
+
+      h2 {
+        font-size: 30px;
+        font-weight: normal;
+      }
+
+      p{
+        text-align: center;
+        vertical-align: middle;
+        margin:0 auto;
+        font-size: normal%;
+      }
+
+      a{
+        color: white;
+        font-weight: normal;
+      }
+
+
+
+    </style>
+
+  </head>
+
+
+  <body>
+    <div id="background">
+      
+      <div id="transbox">
+
+          <div id="infobox">
+
+              <h1 >Cristian Bedoya's Personal Website</h1>
+              <h2 >Website Currently Under Construction</h2>
+              <p>I am a Master's Computer Engineering student at Northwestern University and currently spending the summer interning at Intel's Arizona site.</p> 
+              <p>To learn more about me, check out my <a href="https://www.linkedin.com/pub/cristian-bedoya/49/515/243">LinkedIn</a> profile.</p>
+            
+
+          </div>
+        
+      </div>
+
+    </div>
+
+
+
+    <!--Add some effects-->
+    <script type="text/javascript">
+          $("#infobox").delay(500).fadeIn(1000);
+
+    </script>
+
+  </body>
+
+</html>

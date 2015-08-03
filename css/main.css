@@ -2,29 +2,7 @@
         margin:0;
     }
 
-    h1 {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-      }
-
-      h2 {
-        font-size: 20px;
-        font-weight: normal;
-      }
-
-      p{
-        text-align: center;
-        vertical-align: middle;
-        margin:0 auto;
-        font-size: normal;
-      }
-
-      a{
-        color: white;
-        font-weight: normal;
-      }
-
+    
     #container{
         background-color: white;
         width:100%;
@@ -33,6 +11,7 @@
 
     }
 
+    /*---------------------------------------BOX1--------------------------------------*/
     #box1{
         height:100%;
         width: 100%;
@@ -41,46 +20,97 @@
     }
 
 
-    #transbox{
-        margin: 0 auto;
-        background-color: black;
-        border: 1px solid black;
-        opacity:0.85;
-        width:100%;
-        height: 100%;
-        filter:alpha(opacity=60); /* For IE8 and earlier */
-        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-        text-align: center;
-        font-variant: normal;
-        position: absolute;
-        color: black;
+            #transbox{
+                margin: 0 auto;
+                background-color: black;
+                border: 1px solid black;
+                opacity:0.85;
+                width:100%;
+                height: 100%;
+                filter:alpha(opacity=60); /* For IE8 and earlier */
+                font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+                text-align: center;
+                font-variant: normal;
+                position: absolute;
+                color: black;
 
+            }
+
+            #infobox{ 
+                z-index: 1;
+                vertical-align: middle;
+                margin:0 auto;
+                margin-left: 2em;
+                margin-right: 2em;
+                margin-top: 6em;
+                padding: 15px auto;
+                background-color: black;
+                color: white;
+
+            }
+
+
+            div #infobox h2{
+                display: none;
+            }
+
+            div #infobox p{
+                display: none;
+                text-align: center;
+                vertical-align: middle;
+                margin:0 auto;
+                font-size: normal;
+                    
+            }
+
+            div #infobox h1 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+            }
+
+            div #infobox h2 {
+                font-size: 20px;
+                font-weight: normal;
+            }
+
+            div #infobox a{
+                color: white;
+                font-weight: normal;
+              }
+
+    /*---------------------------------------BOX1--------------------------------------*/
+    #box2{
+        width: 100%;
+        height: 300px;
     }
 
-    #infobox{ 
-        z-index: 1;
+    #about{
         vertical-align: middle;
         margin:0 auto;
-        margin-left: 2em;
-        margin-right: 2em;
-        margin-top: 6em;
-        padding: 15px auto;
-        background-color: black;
-        color: white;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        padding: 15px;
+        background-color: white;
+        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+        opacity: 0.7;
+        font-size: 150%;
+        text-align: center;
+        line-height: 200%;
+    }
 
+    div #about strong{
+        color: #4D95E8;
     }
 
 
-    div #infobox h2{
-        display: none;
-    }
-
-    div #infobox p{
-        display: none;
-            
-    }
 
 
+
+
+    /*-------------------------------------------Responsive CSS----------------------------------*/
     /*For anything bigger than a phone*/
     @media (min-width: 768px) {
         #infobox{

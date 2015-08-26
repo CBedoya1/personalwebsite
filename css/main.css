@@ -161,13 +161,14 @@
         }
 
         #about{
-            margin:0 auto;
             padding: 15px;
             margin-left: 5em;
             margin-right: 5em;
-            margin-top: 4em;
-            margin-bottom: 4em;
+            margin-top: 60px;
+            margin-bottom: 0;
             font-size: 150%;
+            background-color: white;
+            position: absolute;
         }
 
     }

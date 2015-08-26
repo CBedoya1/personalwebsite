@@ -8,6 +8,7 @@
         width:100%;
         height: 100%;
         position: absolute;
+        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 
     }
 
@@ -28,7 +29,6 @@
                 width:100%;
                 height: 100%;
                 filter:alpha(opacity=60); /* For IE8 and earlier */
-                font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                 text-align: center;
                 font-variant: normal;
                 position: absolute;
@@ -83,6 +83,7 @@
     #box2{
         width: 100%;
         height: 100%;
+        background-color: #FAFAFA;
     }
 
     #profilepic{
@@ -97,14 +98,13 @@
     #about{
         vertical-align: middle;
         margin:auto;   /*responsive*/
-        
         padding: 50px;  /*responsive*/
-        background-color: white;
-        font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+       
         opacity: 0.7;
         font-size: 100%; /*responsive*/
         text-align: center;
         line-height: 200%;
+
     }
 
     div #about strong{
@@ -112,8 +112,32 @@
     }
 
 
+    /*---------------------------------------BOX3--------------------------------------*/
 
+    #box3{
+        width: 100%;
+        height: 100%;
+        background-color: white; 
+        border-color: #CCCCCC;
+        border-style: solid;
+        border-width: 1px;
+    }
 
+    #skillsbox{
+        vertical-align: middle;
+        background-color: blue;
+        
+        opacity: 0.7;
+        text-align: center;
+        line-height: 200%;
+        padding: 15px;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 60px;
+        margin-bottom: 0;
+        font-size: 150%;
+        position: absolute;
+    }
 
 
 
@@ -167,7 +191,6 @@
             margin-top: 60px;
             margin-bottom: 0;
             font-size: 150%;
-            background-color: white;
             position: absolute;
         }
 

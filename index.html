@@ -44,11 +44,21 @@
 
             <div id="about">
 
-                <div id="profilepic">
-                </div>
+                <div id="profilepic"></div>
 
                 <h2>Hi, my name is <strong>Cristian</strong></h2>
                 <p>I am a Master's Computer Engineering student at <strong>Northwestern University</strong>. I am currently spending the summer interning at <strong>Intel's</strong> Arizona site. I am passionate about creating technologies that enrich and change people's everyday lives. Check out some of my works.</p> <p>Want to chat? Email me below!</p> 
+            </div>
+
+        </div>
+
+        <!--Skills-->
+        <div  id= "box3">
+
+            <div id= "skillsbox">
+                
+                <h1>Skills<h1>
+
             </div>
 
         </div>
@@ -75,11 +85,18 @@
                 });
             });
 
-            /*//Made content fade in 
-            function infofade(){
-                $("div #infobox h2 ").delay(500).fadeIn(1000);
-                $("div #infobox p").delay(500).fadeIn(1000);
-            }*/
+            //ProgressBar
+            $(function() {
+            $(".meter > span").each(function() {
+                $(this)
+                    .data("origWidth", $(this).width())
+                    .width(0)
+                    .animate({
+                        width: $(this).data("origWidth")
+                    }, 1200);
+            });
+        });
+
 
     </script>
 

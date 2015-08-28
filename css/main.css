@@ -124,20 +124,13 @@
         border-width: 1px;
     }
 
-    #skillsbox{
-        vertical-align: middle;
-        background-color: blue;
-        
-        opacity: 0.7;
+    div #box3 h1{
         text-align: center;
-        line-height: 200%;
-        padding: 15px;
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-top: 60px;
-        margin-bottom: 0;
-        font-size: 150%;
-        position: absolute;
+    }
+
+    
+    #skillschart{
+        
     }
 
 

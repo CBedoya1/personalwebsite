@@ -34,7 +34,7 @@ body {
     display: inline-block;
     height: 425px;
     margin: 0 1.8% 0 0;
-    width: 15%;
+    width: 8%;
   }
 }
 .chart .axis {
@@ -140,12 +140,12 @@ body {
 
 
 .chart .coolblue {
-  background: #2989D8;
-  border: 1px solid #2989D8;
+  background: #5FA4E6;
+  border: 1px solid #5FA4E6;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M1OTRmNyIvPjxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjYWI2NGY0Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #81B4EE), color-stop(70%, #2989D8));
-  background-image: -moz-linear-gradient(#81B4EE, #2989D8 70%);
-  background-image: -webkit-linear-gradient(#81B4EE, #2989D8 70%);
-  background-image: linear-gradient(#81B4EE, #2989D8 70%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #81B4EE), color-stop(70%, #5FA4E6));
+  background-image: -moz-linear-gradient(#81B4EE, #5FA4E6 70%);
+  background-image: -webkit-linear-gradient(#81B4EE, #5FA4E6 70%);
+  background-image: linear-gradient(#81B4EE, #5FA4E6 70%);
 }

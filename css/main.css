@@ -122,15 +122,23 @@
         border-color: #CCCCCC;
         border-style: solid;
         border-width: 1px;
+        opacity: .7;
     }
 
     div #box3 h1{
         text-align: center;
+        font-size: 250%;
     }
 
     
     #skillschart{
-        
+        vertical-align: middle;
+        padding: 15px;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        font-size: 100%; /*responsive*/
     }
 
 

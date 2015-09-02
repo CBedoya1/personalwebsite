@@ -51,6 +51,24 @@ body {
     display: inline-block;
   }
 }
+
+.chart .xaxis {
+  display: inline;
+
+}
+
+.chart .xlabel {
+  background: #cccccc;
+  float: left;
+  margin-top: .5%;
+  margin-right: 7.35%;
+  width: 22.25%;
+}
+
+.chart .xlabel_first{
+  margin-left:10.3%;
+}
+
 .chart .label {
   background: #cccccc;
   margin: -14px 0 71px 0;
@@ -60,13 +78,11 @@ body {
   opacity: .4;
   width: 100%;
   font-size: 30px;
-  font-size: 1.875rem;
 }
 @media (min-width: 700px) {
   .chart .percent {
     position: absolute;
-    font-size: 62px;
-    font-size: 2.8rem;
+    font-size: 45px;
   }
 }
 .chart .percent span {
@@ -86,8 +102,7 @@ body {
   .chart .skill {
     bottom: 20px;
     position: absolute;
-    font-size: 16px;
-    font-size: .85rem;
+    font-size: 14px;
   }
 }
 

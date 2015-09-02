@@ -75,7 +75,7 @@
 
 
                         <!--Scripting-->
-                        <li class="bar coolblue" style="height: 85%;">
+                        <li class="bar coolblue c_skill">
                             <div class="percent">85<span>%</span></div>
                             <div class="skill">C++</div>
                         </li>
@@ -168,18 +168,22 @@
                 });
             });
 
-            //ProgressBar
-            $(function() {
-            $(".meter > span").each(function() {
-                $(this)
-                    .data("origWidth", $(this).width())
-                    .width(0)
-                    .animate({
-                        width: $(this).data("origWidth")
-                    }, 1200);
-            });
-        });
 
+            //Increment Skills chart
+            var progressBar = $('.c_skill'),
+            height = 20;
+
+            progressBar.height(height);
+
+            var interval = setInterval(function() {
+                height += 1;
+
+                progressBar.css('height', height + '%');
+
+                if (height >= 85) {
+                    clearInterval(interval);
+                }
+            }, 6)
 
     </script>
 

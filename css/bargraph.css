@@ -137,3 +137,10 @@ body {
   background-image: -webkit-linear-gradient(#D4D4D4, #82BBE7 70%);
   background-image: linear-gradient(#D4D4D4, #82BBE7 70%);
 }
+
+
+.chart .c_skill{
+
+  height: 0;
+
+}

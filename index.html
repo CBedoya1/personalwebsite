@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/bargraph.css">
     <link rel="stylesheet" type="text/css" href="css/typedjs.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -75,12 +77,12 @@
 
 
                         <!--Scripting-->
-                        <li class="bar coolblue c_skill">
+                        <li class="bar coolblue wow fadeIn" data-wow-duration="1s" data-wow-offset="300">
                             <div class="percent">85<span>%</span></div>
                             <div class="skill">C++</div>
                         </li>
 
-                        <li class="bar coolblue " style="height: 95%;">
+                        <li class="bar coolblue" style="height: 95%;">
                             <div class="percent">95<span>%</span></div>
                             <div class="skill">Python</div>
                         </li>
@@ -136,9 +138,7 @@
                     </ul>
 
 
-                     
-
-
+                    
 
 
                 </div>
@@ -156,7 +156,9 @@
     <script type="text/Javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/typed.js"></script>
     
+
     <script>
+            new WOW().init();
 
             //type
             $(function(){
@@ -183,7 +185,7 @@
                 if (height >= 85) {
                     clearInterval(interval);
                 }
-            }, 6)
+            }, 8)
 
     </script>
 

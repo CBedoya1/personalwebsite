@@ -78,7 +78,7 @@
 
                         <!--Scripting-->
                         <li class="bar coolblue c_skill">
-                            <div class="percent">85<span>%</span></div>
+                            <div class="percent percent_c_skill">85</div>
                             <div class="skill">C++</div>
                         </li>
 
@@ -195,20 +195,27 @@
 
             //Increment Skills chart
             function increment_bar(){
-                var progressBar = $('.c_skill'),
+                var progressBar = $('.c_skill');
+                var percent = $('.percent_c_skill');
                 height = 20;
+                percent_val = 20;
 
                 progressBar.height(height);
+                percent.text(percent_val);
+
 
                 var interval = setInterval(function() {
                     height += 1;
+                    percent_val += 1;
 
                     progressBar.css('height', height + '%');
+                    percent.text(percent_val + '%') ;
+
 
                     if (height >= 85) {
                         clearInterval(interval);
                     }
-                }, 8)
+                }, 10)
 
             }
             

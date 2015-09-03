@@ -77,7 +77,7 @@
 
 
                         <!--Scripting-->
-                        <li class="bar coolblue wow fadeIn" data-wow-duration="1s" data-wow-offset="300">
+                        <li class="bar coolblue c_skill">
                             <div class="percent">85<span>%</span></div>
                             <div class="skill">C++</div>
                         </li>
@@ -171,21 +171,47 @@
             });
 
 
+            //Activate bar graph when user scrolls down
+            $(function() {
+                var oTop = $('.c_skill').offset().top - window.innerHeight;
+                var count = 0;
+                $(window).scroll(function(){
+                
+                    var pTop = $('body').scrollTop();
+                    console.log( pTop + ' - ' + oTop );
+                    if( (pTop > oTop) && count <= 0){
+                        count = count + 1;
+                        start_count();
+                    }
+                });
+            });
+
+
+            function start_count(){
+                //Add your code here
+                increment_bar();
+            }
+
+
             //Increment Skills chart
-            var progressBar = $('.c_skill'),
-            height = 20;
+            function increment_bar(){
+                var progressBar = $('.c_skill'),
+                height = 20;
 
-            progressBar.height(height);
+                progressBar.height(height);
 
-            var interval = setInterval(function() {
-                height += 1;
+                var interval = setInterval(function() {
+                    height += 1;
 
-                progressBar.css('height', height + '%');
+                    progressBar.css('height', height + '%');
 
-                if (height >= 85) {
-                    clearInterval(interval);
-                }
-            }, 8)
+                    if (height >= 85) {
+                        clearInterval(interval);
+                    }
+                }, 8)
+
+            }
+            
 
     </script>
 

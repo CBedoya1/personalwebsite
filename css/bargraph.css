@@ -138,7 +138,7 @@ body {
   background-image: linear-gradient(#D4D4D4, #82BBE7 70%);
 }
 
-
+/*Scripting Skills*/
 .chart .c_skill{
 
   height: 0;
@@ -152,6 +152,44 @@ body {
 }
 
 .chart .matlab_skill{
+
+  height: 0;
+
+}
+
+/*Web Development*/
+.chart .html_skill{
+
+  height: 0;
+
+}
+
+.chart .js_skill{
+
+  height: 0;
+
+}
+
+.chart .responsive_skill{
+
+  height: 0;
+
+}
+
+/*Hardware Design*/
+.chart .verilog_skill{
+
+  height: 0;
+
+}
+
+.chart .vhdl_skill{
+
+  height: 0;
+
+}
+
+.chart .cadence_skill{
 
   height: 0;
 

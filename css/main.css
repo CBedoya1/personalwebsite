@@ -117,7 +117,7 @@
 
     #box3{
         width: 100%;
-        height: 100%;
+        
         background-color: white; 
         border-color: #CCCCCC;
         border-style: solid;
@@ -127,7 +127,6 @@
 
     div #box3 h1{
         text-align: center;
-        font-size: 250%;
     }
 
     
@@ -136,7 +135,7 @@
         padding: 15px;
         margin-left: 5em;
         margin-right: 5em;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 0px;
         font-size: 100%; /*responsive*/
     }
@@ -198,6 +197,17 @@
             margin-bottom: 0px;
             font-size: 150%;
             position: absolute;
+        }
+
+        /*--------------------------BOX 3-------------------*/
+
+        div #box3 h1{
+            font-size: 250%;
+        }
+
+        #box3{
+            height: 100%;
+            margin-top: 40px;
         }
 
     }

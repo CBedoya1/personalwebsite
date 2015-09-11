@@ -7,6 +7,7 @@ body {
   clear: both;
   padding: 0;
   width: 100%;
+  
 }
 @media (min-width: 700px) {
   .chart {
@@ -59,11 +60,28 @@ body {
 
 .chart .xlabel {
   background: #cccccc;
-  float: left;
-  margin-top: .5%;
-  margin-right: 7.35%;
-  width: 22.25%;
+  width: 6%;
+  word-wrap: break-word;
+  padding-left:7px; 
+  padding-right:7px;
+  display: none;
+
 }
+
+
+@media (min-width: 700px) {
+  .chart .xlabel {
+    display: inline;
+    margin-top: .5%;
+    margin-right: 7.35%;
+    float: left;
+    width: 22.25%;
+    word-wrap: normal;
+    padding-left:0px; 
+    padding-right:0px;
+  }
+}
+
 
 .chart .xlabel_first{
   margin-left:10.3%;
@@ -109,10 +127,15 @@ body {
 
 /*Categories*/
 .chart .last_skill {
-  margin: 0 7% 0 0;
 
 }
 
+@media (min-width: 700px) {
+  .chart .last_skill {
+  margin: 0 7% 0 0;
+
+}
+}
 
 
 /*COLORS*/
